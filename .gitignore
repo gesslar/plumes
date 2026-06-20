@@ -1,0 +1,5 @@
+build/
+.output
+work/
+.vscode/settings.json
+node_modules/

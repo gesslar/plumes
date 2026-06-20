@@ -1,0 +1,19 @@
+{
+  "name": "plumes",
+  "version": "1.0.0",
+  "description": "A Mudlet GUI for the Oxidus mudlib.",
+  "scripts": {
+    "build": "npx @gesslar/muddy",
+    "major": "npx @gesslar/muddy version major",
+    "minor": "npx @gesslar/muddy version minor",
+    "patch": "npx @gesslar/muddy version patch",
+    "test": "docker run --rm -v \"$PWD\":/workspace gesslardev/mudlet-busted",
+    "test:tree": "docker run --rm -e BUSTED_OUTPUT=treeOutput -v \"$PWD\":/workspace gesslardev/mudlet-busted",
+    "docker:update": "docker pull gesslardev/mudlet-busted",
+    "pr": "gt submit -p --ai"
+  },
+  "license": "0BSD",
+  "devDependencies": {
+    "@gesslar/muddy": "^2.2.2"
+  }
+}
