@@ -1,0 +1,7 @@
+{
+  "package": "plumes",
+  "version": "1.0.0",
+  "author": "gesslar",
+  "title": "Pluggable Geyser objects for your Mudlet UI making pleasure.",
+  "outputFile": true
+}

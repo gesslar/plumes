@@ -1,0 +1,4 @@
+build/
+.output
+work/
+.vscode/settings.json
